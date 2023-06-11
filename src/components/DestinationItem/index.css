@@ -1,0 +1,22 @@
+/* Write your CSS here */
+
+.header {
+  font-size: 17px;
+  font-weight: 700;
+  padding: 10px;
+  margin-top: 8px;
+  text-align: center;
+}
+.icon-image {
+  height: 200px;
+  width: 200px;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  margin: 12px;
+}

@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.card {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: #e6f6ff;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.inputElement {
+  border: 0px;
+  height: 30px;
+  border: 2px solid #e6f6ff;
+}
+.destination-app {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #8b979e;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid white;
+  box-shadow: aliceblue;
+}
+.heading {
+  font-size: 29px;
+  font-weight: bold;
+  padding: 10px;
+}
+.undo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  max-width: 900px;
+  padding-left: 0px;
+}
